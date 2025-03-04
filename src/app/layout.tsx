@@ -1,5 +1,5 @@
-import Navbar from "@/components/Navbar";
 import "./globals.css";
+import Header from "@/components/Header";
 
 export const metadata = {
   title: "School System",
@@ -13,12 +13,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      <body>
-        <header className="flex flex-row  justify-between p-4">
-          <h1>School System</h1>
-          <Navbar />
-        </header>
-        <main>{children}</main>
+      <body className="flex">
+        <Header />
+        <main className="flex-grow p-6 ml-64">{children}</main>
       </body>
     </html>
   );
