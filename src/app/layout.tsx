@@ -13,9 +13,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      <body className="flex">
+      <body>
         <Header />
-        <main className="flex-grow md:p-6 md:ml-64 ">{children}</main>
+        <main className="flex-grow md:p-6 md:ml-64 p-1 mt-2 ">{children}</main>
       </body>
     </html>
   );
