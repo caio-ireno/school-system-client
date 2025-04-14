@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function page() {
+export default function Card() {
   return (
     <div>
-      <h1>Lista de Turmas</h1>
+      <h1>meu componente</h1>
     </div>
   );
 }
