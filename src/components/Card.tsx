@@ -1,4 +1,5 @@
-// components/Card.tsx
+"use client";
+
 interface CardProps {
   title: string;
   content: React.ReactNode;
